@@ -9,8 +9,12 @@ Second Configure the MySQL connector from /webapp/WEB-INF/lib/mysqlconnector.jar
 
 *MySQL commands to create the database :*
 > CREATE DATABASE myProject;
+
 > USE myProject;
+
 > CREATE TABLE User(sino INT PRIMARY AUTOIMCREMENT, name VARCHAR(100), email VARCHAR(100) UNIQUE, password VARCHAR(100),gender VARCHAR(100)), city VARCHAR(100), dob VARCHAR(100);
+
 > DESC User;
 
 *git link: *
+https://github.com/CoderKumarS/LogIN.git
