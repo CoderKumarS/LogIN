@@ -1,12 +1,12 @@
 This is a Basic ``Java CRUD Operation Project`` using jsp view page ,servlet for routing and mysql as database.
 
 *To Run the Program :*
-First Setup the database and update the basic information of in.sp.database.Database.java file.
+* First Setup the database and update the basic information of in.sp.database.Database.java file.
 Change the user the username, password, and database name as per your database.
 
-Second Configure the MySQL connector from /webapp/WEB-INF/lib/mysqlconnector.jar in buildpath.
+* Second Configure the MySQL connector from /webapp/WEB-INF/lib/mysqlconnector.jar in buildpath.
 
-
+* Third add the apache tomcate server to run the project on localhost.
 *MySQL commands to create the database :*
 > CREATE DATABASE myProject;
 
@@ -16,5 +16,7 @@ Second Configure the MySQL connector from /webapp/WEB-INF/lib/mysqlconnector.jar
 
 > DESC User;
 
-*git link: *
+*git link:*
 https://github.com/CoderKumarS/LogIN.git
+
+> # Created by : CoderKumarS
